@@ -1,4 +1,4 @@
-# Question 1
+# Challenge 1
 
 https://tranquil-temple-79124.herokuapp.com/messages/my_message
 
@@ -14,7 +14,7 @@ curl $URL/messages/2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e
 curl -i $URL/messages/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
 
-# Question 2
+# Challenge 2
 
 My program runs in O(N) time and O(N) space. The first loops loads the prices into memory and looks for any exact matches. The second loop finds the closest match under our budget if we couldn't find an exact match.
 
